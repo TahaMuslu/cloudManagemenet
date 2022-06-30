@@ -89,26 +89,26 @@ special_wait(By.NAME,'Karşıya Yükle',browser)
 upload_element = browser.find_element(By.NAME,'Karşıya Yükle')
 upload_element.click()
 
-# open_folder_element = browser.find_element(By.NAME,'Klasör')
-# open_folder_element.click()
+open_folder_element = browser.find_element(By.NAME,'Klasör')
+open_folder_element.click()
 
 
-# #Dosya yolu seçiliyor
-# pyautogui_wait()
-# pyautogui.write(PATH)
-# pyautogui.press('enter')
-# pyautogui.press('enter')
-# pyautogui.press('left')
-# pyautogui.press('enter')
+#Dosya yolu seçiliyor
+pyautogui_wait()
+pyautogui.write(PATH)
+pyautogui.press('enter')
+pyautogui.press('enter')
+pyautogui.press('left')
+pyautogui.press('enter')
 
-# #Tekrarlanan dosyaların her ikisi de saklanıyor
-# special_wait(By.NAME,'Her ikisini de sakla',browser)
-# keep_both_element = browser.find_element(By.NAME,'Her ikisini de sakla')
-# keep_both_element.click()
+#Tekrarlanan dosyaların her ikisi de saklanıyor
+special_wait(By.NAME,'Her ikisini de sakla',browser)
+keep_both_element = browser.find_element(By.NAME,'Her ikisini de sakla')
+keep_both_element.click()
 
 
-# #Dosyanın yüklenmesi bekleniyor
-# special_wait(By.CSS_SELECTOR,'i[data-icon-name="CheckMark"]',browser)
+#Dosyanın yüklenmesi bekleniyor
+special_wait(By.CSS_SELECTOR,'i[data-icon-name="CheckMark"]',browser)
 browser.quit()
 
 
