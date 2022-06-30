@@ -5,7 +5,7 @@ import time
 import pyautogui
 
 
-def special_wait(by,value,browser,wait_time=20):
+def special_wait(by,value,browser,wait_time=600):
     counter = 0
     wait_time*=10
     while True:
