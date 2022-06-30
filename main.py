@@ -42,7 +42,7 @@ BASE_URL="https://onedrive.live.com/about/tr-tr/signin/"
 
 #Driver setup
 options = Options()
-# options.headless = True
+options.headless = True
 browser = webdriver.Chrome(options=options)
 browser.get(BASE_URL)
 
